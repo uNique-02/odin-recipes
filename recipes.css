@@ -1,0 +1,94 @@
+/* CSS for all recipes */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+a{
+    display: block;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.ingredients-section,
+.steps-section {
+    width: 45%;
+    flex-direction: column;
+}
+
+/* Change the width of description to 80% of the container */
+.description {
+    width: 80%;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 2em;
+    font-weight: bold;
+    color: red;
+    margin: 1em auto;
+}
+
+p {
+    font-size: 16px;
+    color: #666;
+}
+
+.head-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 2em;
+}
+
+.head{
+    background-image: url('https://www.shutterstock.com/image-photo/raw-ingredients-readymade-pizza-on-260nw-1926054275.jpg'); /* Replace with your image URL */
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    margin-bottom: 2em;
+}
+
+.image-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-bottom: 3em;
+}
+
+.image-container img {
+    width: 45%;
+    height: 200px; /* Adjust this value to your preference */
+    object-fit: cover;
+    transition: transform 0.3s ease;
+    box-shadow: 0px 0px 10px rgba(255, 0, 0, 0.5); /* Adjust these values to your preference */
+}
+
+.image-container img:hover {
+    transform: scale(1.3);
+}
+
+
+
